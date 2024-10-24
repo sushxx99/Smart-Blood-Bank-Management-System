@@ -1,32 +1,38 @@
-Free Download Source Code "Blood Bank System"
+Blood Bank System Setup Guide
+Prerequisites
+XAMPP (for running the server and MySQL database)
+Text Editor (like Notepad++, Sublime Text, or any other)
+Blood Bank System source code
+Steps to Install:
+Download and Install XAMPP:
+Make sure to download and install XAMPP, as it will run the Apache server and MySQL.
 
-FIRST Download
+Download the Source Code:
+Download the Blood Bank System zip file from the provided source.
+(Make sure you have WinRAR or any unzip tool to extract the file)
 
-1.XAMPP
+Extract the Zip File:
+After downloading, extract the Blood Bank System folder.
 
-2."TEXT EDITOR" NOTEPAD++ OR SUBLIME TEXT 3 / ETC.
+Move the Folder to XAMPP Root Directory:
+Copy the extracted folder and paste it into the XAMPP directory:
+For Example:
 
-3"Blood Bank System"
+On Windows: C:/xampp/htdocs
+On other drives: D:/xampp/htdocs, etc.
+Set Up the Database:
 
-4. Download the zip file/ download winrar
+Open your browser and go to http://localhost/phpmyadmin.
+Create a new database named: bloodbank_db.
+Import the bloodbank_db.sql file from the extracted folder’s SQL file subfolder.
+Run the Application:
+Open your browser and run the system by navigating to:
+http://localhost/bloodbank
 
-5. Extract the file and copy "Blood Bank System" folder
+Admin Login Details
+Username: admin
+Password: admin123
+For more details or support, subscribe to the YouTube channel "1 Source Code".
 
-6.Paste inside root directory/ where you install xammp local disk C: drive D: drive E: paste: (for xampp/htdocs, 
+Link: https://1sourcecodr.blogspot.com
 
-7. Open PHPMyAdmin (http://localhost/phpmyadmin)
-
-8. Create a database with name bloodbank_db
-
-6. Import bloodbank_db.sql file(given inside the zip package in SQL file folder)
-
-7.Run the script http:/bloodbank
-**LOGIN DETAILS** 
-
-Admin
-user: admin
-pass: admin123
-
-
-****** https:1sourcecodr.blogspot.com ******
-Subcribe my You tube Channel **** 1 Source code ****
