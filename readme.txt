@@ -1,38 +1,40 @@
-Blood Bank System Setup Guide
-Prerequisites
-XAMPP (for running the server and MySQL database)
-Text Editor (like Notepad++, Sublime Text, or any other)
-Blood Bank System source code
-Steps to Install:
-Download and Install XAMPP:
-Make sure to download and install XAMPP, as it will run the Apache server and MySQL.
+# Blood Bank System Setup Guide
 
-Download the Source Code:
-Download the Blood Bank System zip file from the provided source.
-(Make sure you have WinRAR or any unzip tool to extract the file)
+## Prerequisites
 
-Extract the Zip File:
-After downloading, extract the Blood Bank System folder.
+- **XAMPP** (for running the server and MySQL database)
+- **Text Editor** (like Notepad++, Sublime Text, or any other)
+- **Blood Bank System** source code
 
-Move the Folder to XAMPP Root Directory:
-Copy the extracted folder and paste it into the XAMPP directory:
-For Example:
+---
 
-On Windows: C:/xampp/htdocs
-On other drives: D:/xampp/htdocs, etc.
-Set Up the Database:
+## Steps to Install:
 
-Open your browser and go to http://localhost/phpmyadmin.
-Create a new database named: bloodbank_db.
-Import the bloodbank_db.sql file from the extracted folder’s SQL file subfolder.
-Run the Application:
-Open your browser and run the system by navigating to:
-http://localhost/bloodbank
+### 1. Download and Install XAMPP:
+   Make sure to download and install XAMPP, as it will run the Apache server and MySQL.
 
-Admin Login Details
-Username: admin
-Password: admin123
-For more details or support, subscribe to the YouTube channel "1 Source Code".
+### 2. Download the Source Code:
+   Download the **Blood Bank System** zip file from the provided source.
+   
+   *(Ensure you have WinRAR or any unzip tool to extract the file.)*
 
-Link: https://1sourcecodr.blogspot.com
+### 3. Extract the Zip File:
+   After downloading, extract the **Blood Bank System** folder.
 
+### 4. Move the Folder to XAMPP Root Directory:
+   Copy the extracted folder and paste it into the XAMPP `htdocs` directory.
+   
+   **For Example:**
+   - On Windows: `C:/xampp/htdocs`
+   - On other drives: `D:/xampp/htdocs`, etc.
+
+### 5. Set Up the Database:
+
+   - Open your browser and navigate to [http://localhost/phpmyadmin](http://localhost/phpmyadmin).
+   - Create a new database named: `bloodbank_db`.
+   - Import the **bloodbank_db.sql** file from the extracted folder’s **SQL file** subfolder.
+
+### 6. Run the Application:
+   Open your browser and navigate to:
+   ```bash
+   http://localhost/bloodbank
