@@ -1,8 +1,10 @@
 Blood Bank System Setup Guide
-Prerequisites
+
+Prerequisites:
 XAMPP (for running the server and MySQL database)
 Text Editor (like Notepad++, Sublime Text, or any other)
 Blood Bank System source code
+
 Steps to Install:
 Download and Install XAMPP:
 Make sure to download and install XAMPP, as it will run the Apache server and MySQL.
